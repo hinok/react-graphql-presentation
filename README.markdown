@@ -1,3 +1,8 @@
+# React.js, GraphQL Presentation
+
+To load pages which are still on `http` please enable `Load unsafe scripts` option.
+![Enabling Load unsafe scripts option](https://github.com/hinok/react-graphql-presentation/raw/master/assets/load-unsafe-scripts.png)
+
 # Spectacle Boilerplate
 
 ## Reference
