@@ -401,7 +401,7 @@ export default class Presentation extends Component {
             style={{ ...styles.noIframe }}
             width="100%"
             height="620px"
-            src="http://rxmarbles.com/"
+            src="https://rxmarbles.com/"
           />
         </Slide>
 
@@ -416,7 +416,7 @@ export default class Presentation extends Component {
             style={{ ...styles.noIframe }}
             width="100%"
             height="620px"
-            src="http://jsbin.com/dageza/edit?js,output"
+            src="https://jsbin.com/dageza/edit?js,output"
           />
         </Slide>
 
@@ -437,7 +437,7 @@ export default class Presentation extends Component {
             style={{ ...styles.noIframe }}
             width="100%"
             height="620px"
-            src="http://jsbin.com/johidiy/4/edit?js,output"
+            src="https://jsbin.com/johidiy/4/edit?js,output"
           />
         </Slide>
 
@@ -544,7 +544,7 @@ export default class Presentation extends Component {
             style={{ ...styles.noIframe }}
             width="100%"
             height="620px"
-            src="http://graphql.org/users/"
+            src="https://graphql.org/users/"
           />
         </Slide>
 
@@ -1085,7 +1085,7 @@ render(<App />, mountNode);
             style={{ ...styles.noIframe }}
             width="100%"
             height="620px"
-            src="http://graphql.org/swapi-graphql/?query=%7B%0A%20%20allFilms%20%7B%0A%20%20%20%20films%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%20%20episodeID%0A%20%20%20%20%20%20title%0A%20%20%20%20%20%20releaseDate%0A%20%20%20%20%20%20director%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D&operationName=null"
+            src="https://graphql.org/swapi-graphql/?query=%7B%0A%20%20allFilms%20%7B%0A%20%20%20%20films%20%7B%0A%20%20%20%20%20%20id%0A%20%20%20%20%20%20episodeID%0A%20%20%20%20%20%20title%0A%20%20%20%20%20%20releaseDate%0A%20%20%20%20%20%20director%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D&operationName=null"
           />
         </Slide>
 
