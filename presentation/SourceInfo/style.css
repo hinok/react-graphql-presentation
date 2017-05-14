@@ -1,0 +1,92 @@
+.source-info {
+  display: block;
+  position: fixed;
+  bottom: 100%;
+  left: 0;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 0.67em;
+  padding-left: 50px;
+  color: rgba(0, 0, 0, 0.4);
+  text-align: left;
+}
+
+.source-info a {
+  display: block;
+  text-decoration: none;
+  outline: 0;
+  color: inherit;
+}
+
+.source-info__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -6px;
+  margin-left: -8px;
+  opacity: 0.6;
+  line-height: 1;
+  cursor: pointer;
+  padding: 6px 8px 5px;
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 3px;
+  transition: all 0.4s ease-out;
+}
+
+.source-info__icon:hover {
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.source-info--light {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.source-info--light .source-info__icon {
+  background: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.source-info--visible .source-info__icon {
+  background: #23bfe0;
+  color: #fff;
+}
+
+.source-info--visible .source-info__icon:hover {
+  background: #1a8ea7;
+}
+
+.source-info__title {
+  font-style: italic;
+  margin-bottom: 0.67em;
+}
+
+.source-info a:hover .source-info__title {
+  color: #23bfe0;
+}
+
+.source-info__author,
+.source-info__published,
+.source-info__last-access {
+  font-size: 0.67em;
+  line-height: 1.75;
+  opacity: 0.7;
+}
+
+.source-info__author span,
+.source-info__published span,
+.source-info__last-access span {
+  color: #23bfe0;
+}
+
+.source-info__content {
+  transform: translateY(-30%);
+  opacity: 0;
+  transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+  pointer-events: none;
+}
+
+.source-info--visible .source-info__content {
+  transform: translateY(0);
+  opacity: 1;
+  pointer-events: initial;
+}

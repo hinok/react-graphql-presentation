@@ -1,0 +1,44 @@
+/**
+ * Create and return a new React element of the given type
+ * @param {string|ReactComponent|function} type
+ * @param {Object|null} props
+ * @param {ReactElement|string|null|undefined|boolean} children
+ * @returns {ReactElement}
+ * @see https://gist.github.com/sebmarkbage/fcb1b6ab493b0c77d589#react-nodes
+ */
+React.createElement(type, props, ...children)
+
+/**
+ * JSX
+ */
+
+const MyButton = ({ children, color }) => (
+  <button style={{ color }}>
+    {children}
+  </button>
+);
+
+<MyButton color="blue" shadowSize={2}>
+  Click Me
+</MyButton>
+
+// JSX is compiled to
+
+var MyButton = function MyButton(props) {
+  var children = props.children;
+  var color = props.color;
+
+  return React.createElement(
+    "button",
+    {
+      style: { color: color }
+    },
+    children
+  );
+};
+
+React.createElement(
+  MyButton,
+  { color: "blue", shadowSize: 2 },
+  "Click Me"
+);

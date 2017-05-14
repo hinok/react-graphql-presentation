@@ -1,0 +1,60 @@
+.playground .playgroundPreview:before,
+.playground .playgroundCode:before {
+  content: none !important;
+}
+
+.simplify-babel-repl-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.simplify-babel-repl-header:before {
+  content: '';
+  display: block;
+  width: 100%;
+  padding-bottom: 14%;
+}
+
+.simplify-babel-repl-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: #fff;
+}
+
+.simplify-babel-repl-bottom:before {
+  content: '';
+  display: block;
+  width: 100%;
+  padding-bottom: 7.2%;
+}
+
+.react-usage-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.pretty-link {
+  text-decoration: none;
+  color: #2196bc;
+}
+
+.pretty-link:hover {
+  color: #1bc7d6;
+}
+
+.pretty-link .material-icons {
+  opacity: 0.5;
+}

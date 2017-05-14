@@ -1,0 +1,18 @@
+subscription onCommentAdded($repoFullName: String!){
+  commentAdded(repoFullName: $repoFullName){
+    id
+    content
+  }
+}
+
+// Response
+{
+  "data": {
+    "commentAdded": {
+      "id": "123",
+      "content": "Hello!"
+    }
+  }
+}
+
+// @source http://dev.apollodata.com/react/subscriptions.html

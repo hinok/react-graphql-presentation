@@ -1,0 +1,70 @@
+const MyButton = ({ children, color }) => (
+  <button style={{ color }}>
+    {children}
+  </button>
+);
+
+class MyButton extends React.Component {
+  constructor(...args) {
+    super(...args);
+
+    this.state = {
+      counter: 0
+    };
+
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick() {
+    this.setState(prevState => ({
+      counter: prevState.counter + 1
+    }));
+  }
+
+  render() {
+    const { color, children } = this.props;
+    const { counter } = this.state;
+
+    return (
+      <div>
+        <h1>Clicked: {counter}x</h1>
+        <button onClick={this.handleClick} style={{ color }}>
+          {children}
+        </button>
+      </div>
+    );
+  }
+}
+
+class MyButton extends React.Component {
+  // code...
+
+  // 1. Mounting
+  componentWillMount() {}
+  componentDidMount() {}
+
+  // 2. Updating
+  componentWillReceiveProps() {}
+  shouldComponentUpdate() {}
+  componentWillUpdate() {}
+  componentDidUpdate() {}
+
+  // 3. Unmounting
+  componentWillUnmount() {}
+
+  // code...
+}
+
+const MyButton = ({ children, color }) => (
+  // code...
+);
+
+MyButton.propTypes = {
+  children: React.PropTypes.element.isRequired,
+  color: React.PropTypes.string,
+};
+
+MyButton.defaultProps = {
+  children: React.PropTypes.element.isRequired,
+  color: React.PropTypes.string,
+};

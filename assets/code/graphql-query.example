@@ -1,0 +1,35 @@
+{
+  allFilms {
+    films {
+      id
+      episodeID
+      title
+      releaseDate
+      director
+    }
+  }
+}
+
+// Response
+{
+  "data": {
+    "allFilms": {
+      "films": [
+        {
+          "id": "ZmlsbXM6MQ==",
+          "episodeID": 4,
+          "title": "A New Hope",
+          "releaseDate": "1977-05-25",
+          "director": "George Lucas"
+        },
+        {
+          "id": "ZmlsbXM6Mg==",
+          "episodeID": 5,
+          "title": "The Empire Strikes Back",
+
+          // ...very long JSON...
+        }
+      ]
+    }
+  }
+}
