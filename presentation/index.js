@@ -401,7 +401,7 @@ export default class Presentation extends Component {
             style={{ ...styles.noIframe }}
             width="100%"
             height="620px"
-            src="https://rxmarbles.com/"
+            src="http://rxmarbles.com/"
           />
         </Slide>
 
@@ -416,7 +416,7 @@ export default class Presentation extends Component {
             style={{ ...styles.noIframe }}
             width="100%"
             height="620px"
-            src="https://jsbin.com/dageza/edit?js,output"
+            src="http://jsbin.com/dageza/edit?js,output"
           />
         </Slide>
 
@@ -437,7 +437,7 @@ export default class Presentation extends Component {
             style={{ ...styles.noIframe }}
             width="100%"
             height="620px"
-            src="https://jsbin.com/johidiy/4/edit?js,output"
+            src="http://jsbin.com/johidiy/4/edit?js,output"
           />
         </Slide>
 
@@ -544,7 +544,7 @@ export default class Presentation extends Component {
             style={{ ...styles.noIframe }}
             width="100%"
             height="620px"
-            src="https://graphql.org/users/"
+            src="http://graphql.org/users/"
           />
         </Slide>
 
