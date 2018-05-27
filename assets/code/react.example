@@ -52,6 +52,15 @@ class MyButton extends React.Component {
   // 3. Unmounting
   componentWillUnmount() {}
 
+  // Deprecation in React 16.3
+  UNSAFE_componentWillMount() {}
+  UNSAFE_componentWillReceiveProps() {}
+  UNSAFE_componentWillUpdate() {}
+
+  // New methods in React 16.3
+  getDerivedStateFromProps() {}
+  getSnapshotBeforeUpdate() {}
+
   // code...
 }
 
